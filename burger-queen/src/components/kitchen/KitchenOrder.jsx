@@ -17,14 +17,14 @@ const KitchenOrder = () => {
   }, []);
 
   const handleOrder = (order) => {
-    const arrOrder = pending.find((item) => (item.order === order));
-    if (arrOrder.status === 'pending') {
+    if (order.status === 'pending') {
       const obj = {
         status: 'delivering',
       };
-      putOrder(obj, arrOrder._id).then((resp) => console.log(resp));
-      setPending(pending.filter((item) => item._id !== arrOrder._id));
+      putOrder(obj, order._id).then((resp) => console.log(resp));
+      setPending(pending.filter((item) => item._id !== order._id));
     }
+
     // setPending(pending.map((order) => (order.status === 'pending'
     // ? { ...order, status: 'delivering' } : order)));
   };
@@ -63,7 +63,7 @@ const KitchenOrder = () => {
                     )) }
                   </tbody>
                 </table>
-                <button type="button" className="order-ready" onClick={() => handleOrder(element.order)}> LISTO </button>
+                <button type="button" className="order-ready" onClick={() => handleOrder(element)}> LISTO </button>
               </div>
             </div>
           )) : (
