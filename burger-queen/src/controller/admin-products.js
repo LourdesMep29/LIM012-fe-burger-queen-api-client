@@ -41,7 +41,7 @@ export const deleteProduct = (id) => fetch(`https://burger-queen-apilab.herokuap
     Authorization: `Bearer ${sessionStorage.getItem('token')}`,
   },
 }).then((resp) => {
-  if (resp.status === 204) {
+  if (resp.status === 200) {
     return resp.json();
   } if (resp.status === 401) {
     return new Error('No hay cabecera de autenticación');

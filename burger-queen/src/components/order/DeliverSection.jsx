@@ -21,7 +21,7 @@ const DeliverSection = ({
       };
       putOrder(obj, order._id).then((resp) => console.log(resp));
       setDelivering(arr.filter((item) => item._id !== order._id));
-      setDelivered((prev) => ([...prev, order]));
+      setDelivered((prev) => ([order, ...prev]));
     }
   };
 
@@ -36,7 +36,8 @@ const DeliverSection = ({
                 <div className="header-card-order">
                   <p>
                     Order N°
-                    {order._id}
+                    {' '}
+                    {order._id.slice(order._id.length - 5)}
                     {' '}
                     |
                     {' '}

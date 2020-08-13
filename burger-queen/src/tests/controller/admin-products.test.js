@@ -11,7 +11,7 @@ afterEach(() => server.resetHandlers());
 afterAll(() => server.close());
 
 const objProducts = {
-  id: 1,
+  _id: 1,
   name: 'Hamburguesa doble',
   price: '15',
   image: '',
@@ -35,14 +35,14 @@ describe('postProducts', () => {
 
 describe('deleteProduct', () => {
   test('Debería eliminar producto', async () => {
-    const response = await deleteProduct(1);
+    const response = await deleteProduct('1');
     expect(response.message).toBe('El producto ha sido eliminado');
   });
 });
 
 describe('putProduct', () => {
   test('Debería retornar producto editado', async () => {
-    const response = await putProduct(objProducts);
+    const response = await putProduct(objProducts, '1');
     expect(response).toEqual(objProducts);
   });
 });

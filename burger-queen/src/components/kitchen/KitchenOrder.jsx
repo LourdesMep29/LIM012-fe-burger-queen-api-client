@@ -41,7 +41,7 @@ const KitchenOrder = () => {
             <div className="kitchen-card" key={element._id}>
               <div className="header-card">
                 <p>
-                  {element._id}
+                  {element._id.slice(element._id.length - 5)}
                 </p>
                 <p>{element.client}</p>
                 <p>{element.dateEntry}</p>

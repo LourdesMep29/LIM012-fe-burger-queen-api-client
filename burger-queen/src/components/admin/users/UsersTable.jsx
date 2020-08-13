@@ -6,7 +6,8 @@ import React from 'react';
 import { deleteUser } from '../../../controller/admin-users';
 
 const UsersTable = ({ state, setState, modalRoot }) => {
-  const handleDeleteUser = (id) => {
+  const handleDeleteUser = (event) => {
+    const id = event.target.attributes.getNamedItem('data-info').value;
     setState((prevState) => ({
       ...prevState,
       allUsers: state.allUsers.filter((user) => user._id !== id),
@@ -51,7 +52,7 @@ const UsersTable = ({ state, setState, modalRoot }) => {
                 <td>{element.roles.admin ? 'SI' : 'NO' }</td>
                 <td>
                   <i data-testid="edit" className="icon edit fas fa-edit" onClick={() => handleUpdateUser(element)} role="button" tabIndex={0} />
-                  <i data-testid="delete" className="icon delete fas fa-trash-alt" onClick={() => handleDeleteUser(element._id)} role="button" tabIndex={0} />
+                  <i data-testid="delete" data-info={element._id} className="icon delete fas fa-trash-alt" onClick={handleDeleteUser} role="button" tabIndex={0} />
                 </td>
               </tr>
             )) : (

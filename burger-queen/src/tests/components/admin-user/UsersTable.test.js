@@ -11,7 +11,7 @@ afterAll(() => server.close());
 const setState = jest.fn();
 const state = {
   allUsers: [{
-    id: 'u_01',
+    _id: 'u_001',
     email: 'example@gmail.com',
     password: '13142dsg',
     roles: { admin: true },
