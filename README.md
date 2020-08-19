@@ -82,8 +82,8 @@ Lo acordado que debe ocurrir para decir que la historia está terminada.
 * Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
 * Desplegaste tu aplicación y has etiquetado tu versión (git tag).
 
-## Prototipo versión Mobile
-![](https://github.com/Lourdes0896/LIM012-fe-social-network/blob/ludevelop/src/assets/prototipo%20H5-MOBILE.png)
+## Vista
+![](https://github.com/LourdesMep29/LIM012-fe-burger-queen-api-client/blob/master/burger-queen/src/assets/HU1.png)
 
 ***
 
@@ -113,6 +113,9 @@ Lo acordado que debe ocurrir para decir que la historia está terminada.
 * Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
 * Desplegaste tu aplicación y has etiquetado tu versión (git tag).
 
+## Vista
+![](https://github.com/LourdesMep29/LIM012-fe-burger-queen-api-client/blob/master/burger-queen/src/assets/HU2.png)
+
 ***
 
 #### [Historia de usuario 3] Jefe de cocina debe ver los pedidos
@@ -135,6 +138,9 @@ que un pedido está listo para servirlo a un clientx.
 * Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
 * Desplegaste tu aplicación y has etiquetado tu versión (git tag).
 
+## Vista
+![](https://github.com/LourdesMep29/LIM012-fe-burger-queen-api-client/blob/master/burger-queen/src/assets/HU3.png)
+
 ***
 
 #### [Historia de usuario 4] Meserx debe ver pedidos listos para servir
@@ -155,6 +161,9 @@ rápidamente a lxs clientxs que las hicieron.
 * Desplegaste tu aplicación y has etiquetado tu versión (git tag).
 * Los datos se deben mantener íntegros, incluso después de que un pedido ha
   terminado. Todo esto para poder tener estadísticas en el futuro.
+
+## Vista
+![](https://github.com/LourdesMep29/LIM012-fe-burger-queen-api-client/blob/master/burger-queen/src/assets/HU4.png)
 
 ***
 
@@ -177,6 +186,9 @@ la plataforma para mantener actualizado la informacion de mis trabajadorxs.
 * Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
 * Desplegaste tu aplicación y has etiquetado tu versión (git tag).
 
+## Vista
+![](https://github.com/LourdesMep29/LIM012-fe-burger-queen-api-client/blob/master/burger-queen/src/assets/HU5.png)
+
 ***
 
 #### [Historia de usuario 6] Administrador(a) de tienda debe administrar a sus productos
@@ -197,6 +209,9 @@ para mantener actualizado el menú.
 * Haces _test_ unitarios y, además, has testeado tu producto manualmente.
 * Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
 * Desplegaste tu aplicación y has etiquetado tu versión (git tag).
+
+## Vista
+![](https://github.com/LourdesMep29/LIM012-fe-burger-queen-api-client/blob/master/burger-queen/src/assets/HU6.png)
 
 ***
 
