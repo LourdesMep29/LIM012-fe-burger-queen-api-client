@@ -73,15 +73,6 @@ Lo que debe ocurrir para que se satisfagan las necesidades del usuario.
   con la información ingresada.
 * Ingresar al sistema de pedidos si las crendenciales son correctas.
 
-##### Definición de terminado
-
-Lo acordado que debe ocurrir para decir que la historia está terminada.
-
-* Debes haber recibido _code review_ de al menos una compañera.
-* Haces _test_ unitarios y, además, has testeado tu producto manualmente.
-* Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
-* Desplegaste tu aplicación y has etiquetado tu versión (git tag).
-
 ## Vista
 ![](https://github.com/LourdesMep29/LIM012-fe-burger-queen-api-client/blob/master/burger-queen/src/assets/HU1.png)
 
@@ -104,15 +95,6 @@ Lo que debe ocurrir para que se satisfagan las necesidades del usuario
 * Enviar pedido a cocina (guardar en alguna base de datos).
 * Se ve y funciona bien en una _tablet_
 
-##### Definición de terminado
-
-Lo acordado que debe ocurrir para decir que la historia está terminada.
-
-* Debes haber recibido _code review_ de al menos una compañera.
-* Haces _test_ unitarios y, además, has testeado tu producto manualmente.
-* Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
-* Desplegaste tu aplicación y has etiquetado tu versión (git tag).
-
 ## Vista
 ![](https://github.com/LourdesMep29/LIM012-fe-burger-queen-api-client/blob/master/burger-queen/src/assets/HU2.png)
 
@@ -131,13 +113,6 @@ que un pedido está listo para servirlo a un clientx.
 * Ver el tiempo que tomó prepara el pedido desde que llegó hasta que se
   marcó como completado.
 
-##### Definición de terminado
-
-* Debes haber recibido _code review_ de al menos una compañera.
-* Haces _test_ unitarios y, además, has testeado tu producto manualmente.
-* Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
-* Desplegaste tu aplicación y has etiquetado tu versión (git tag).
-
 ## Vista
 ![](https://github.com/LourdesMep29/LIM012-fe-burger-queen-api-client/blob/master/burger-queen/src/assets/HU3.png)
 
@@ -152,15 +127,6 @@ rápidamente a lxs clientxs que las hicieron.
 
 * Ver listado de pedido listos para servir.
 * Marcar pedidos que han sido entregados.
-
-##### Definición de terminado
-
-* Debes haber recibido _code review_ de al menos una compañera.
-* Haces _test_ unitarios y, además, has testeado tu producto manualmente.
-* Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
-* Desplegaste tu aplicación y has etiquetado tu versión (git tag).
-* Los datos se deben mantener íntegros, incluso después de que un pedido ha
-  terminado. Todo esto para poder tener estadísticas en el futuro.
 
 ## Vista
 ![](https://github.com/LourdesMep29/LIM012-fe-burger-queen-api-client/blob/master/burger-queen/src/assets/HU4.png)
@@ -179,13 +145,6 @@ la plataforma para mantener actualizado la informacion de mis trabajadorxs.
 * Eliminar trabajadoxs.
 * Actualizar datos de trabajadorxs.
 
-##### Definición de terminado
-
-* Debes haber recibido _code review_ de al menos una compañera.
-* Haces _test_ unitarios y, además, has testeado tu producto manualmente.
-* Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
-* Desplegaste tu aplicación y has etiquetado tu versión (git tag).
-
 ## Vista
 ![](https://github.com/LourdesMep29/LIM012-fe-burger-queen-api-client/blob/master/burger-queen/src/assets/HU5.png)
 
@@ -202,13 +161,6 @@ para mantener actualizado el menú.
 * Agregar productos.
 * Eliminar productos.
 * Actualizar datos de productos.
-
-##### Definición de terminado
-
-* Debes haber recibido _code review_ de al menos una compañera.
-* Haces _test_ unitarios y, además, has testeado tu producto manualmente.
-* Hiciste _tests_ de usabilidad e incorporaste el _feedback_ del usuario.
-* Desplegaste tu aplicación y has etiquetado tu versión (git tag).
 
 ## Vista
 ![](https://github.com/LourdesMep29/LIM012-fe-burger-queen-api-client/blob/master/burger-queen/src/assets/HU6.png)
